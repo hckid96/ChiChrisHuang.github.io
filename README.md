@@ -1,5 +1,5 @@
 # Welcome to Chi Huang's personal website
 
-## Who is Chi???
+Who is Chi???
 
-## Where are you from?
+Where are you from?
