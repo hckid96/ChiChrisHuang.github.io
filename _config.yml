@@ -1,1 +1,10 @@
-theme: minimal
+# _config.yml
+
+# Site settings
+title: My GitHub Pages Site
+description: This is my awesome GitHub Pages site.
+baseurl: ""
+
+# Theme settings
+theme: jekyll-theme-minimal
+
