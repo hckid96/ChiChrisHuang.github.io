@@ -5,7 +5,22 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
   <style>
- body {background-color: white;}
+ body {background-color: white;
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;}
+header {background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+       }
+nav { background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+nav ul li {
+          display:inline;
+          }    
 h1   {color: blue;}
 p    {color: black;}
     
@@ -14,19 +29,30 @@ p    {color: black;}
       margin-bottom: 20px;
     }
     .image-container img {
-      width: 570px;
+      width: 590px;
       height: 510px;
     }
+main { 
+  padding: 20px;
+     }
+footer{
+  beackground-color:#333;
+  color:#fff;
+  padding: 2-px;
+  text-align: center;
+      }
   </style>
 
 <body>
-   <main>
+     <header>
      <h1>Chi's Personal Page</h1>
+     </header>
+     
     <p>This is Chi's site recording his life and research.</p>
     <div class="image-container">
       <img src="Picture1.jpg" alt="My face">
     </div>
-    <p>My master's study focuses on the application of image analysis in studying the seagrass-epiphyte relationship.</p>
+    
     
     <nav>
     <ul>
@@ -35,10 +61,13 @@ p    {color: black;}
       <li><a href="/contact">Contact</a></li>
     </ul>
   </nav>
- 
-     <p>&copy; 2023 My GitHub Pages Theme</p>
+ <main>
+   <h2> About us</h2> 
+ <p>My master's study focuses on the application of image analysis in studying the seagrass-epiphyte relationship.</p>
+     
  </main>
-  
-   
+  <footer>
+  <p>&copy; 2023 My GitHub Pages Theme</p>
+  </footer>
 </body>
 </html>
