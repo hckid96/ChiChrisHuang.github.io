@@ -3,130 +3,98 @@
   <head>
   <title>ChiChrisHuangpersonalpage</title>
   <link rel="stylesheet" href="assets/css/style.css">
-</head>
   <style>
-    p {
-        font-family: "Times New Roman", sans-serif; 
-        font-size: 18px; 
-      }
- body {background-color: white;
-    font-family: Time, sans-serif;
-   font-size: 30px; 
-    margin:0;
-    padding: 0;
-    height: 100%;
-    margin: 0;
-    padding: 0;}
  body {
-  display: flex;
-  flex-direction: column;
-       }
-main  {
-  flex: 1;
-       }
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-       }
-header {
+       background-color: white;
+       font-family: "Times New Roman", sans-serif; 
+       margin: 0;
+       padding: 0;
+      }
+    
+ header {
   position: absolute;
   top: 0;
   width: 100%;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 20px;
 }
-nav { background-color: #f4f4f4;
-      padding: 10px;
-      text-align: center;
+   h1   {
+     color: blue;
+     front-size:29px;
+    }   
+   nav { background-color: #f4f4f4;
+         padding: 10px;
+         text-align: center;
     }
-nav ul li {
+    nav ul li {
           display:inline;
           }    
-h1   {color: blue;}
-p    {color: black;}
-    
-    .image-container {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .image-container img {
-      width: 590px;
-      height: 510px;
-    }
-main { 
-  padding: 20px;
-     }
+    nav a {
+           text-decoration: none;
+           margin: 10px;
+           color: #333;
+          } 
+    main {
+           padding: 20px;
+           margin: 20px;
+         } 
+   
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 14px;
+        position: absolute;
+        front-size: 12px;
+        text-align: center;
+           }
   </style>
-
+ </head>
 <body>
   <header>
   <h1>Chi's Personal Page</h1>
+    <p> Young Career Scientist </p> 
   </header>
-   <main>
-     <h2> About us</h2> 
-    <p>This is Chi's site recording his life and research.</p>
-    <div class="image-container">
-      <img src="Picture1.jpg" alt="My face">
-    </div>
-    
     <nav>
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
+      <li><a href="/Publication">Publication</a></li>
     </ul>
   </nav>
-
- <p>My master's study focuses on the application of image analysis in studying the seagrass-epiphyte relationship.</p>
+  
+  <main>
+    <section id="about">
+     <h2> About me</h2> 
+    <p>This is Chi's site recording his life and research. He is crazy about injecting fish but his Ph.D project is about the oyster shell formation under ocean acidification</p>
+     <p>My master's study focuses on the application of image analysis in studying the seagrass-epiphyte relationship.</p>
      <p>GA</p>
      <p>GAfsa</p>
      <p>HAHAH</p>
-
+    </section>
+    
+    <section id="Publication">
+      <h2>Publication</2>
+      <u1>
+        <li>Publication 1 </li>
+        <li>Publication 2 </li>
+       </ui>
+    </section>
+    
+     <section id="contact">
+      <h2>Contact me</2>
+       <p>Email: chuang2@islander.tamucc.edu.com</p>
+       <p>Phone: +1 (361)-232-0824</p>
+    </section>
+      <div class="image-container">
+      <img src="Picture1.jpg" alt="My face">
+    </div>
  </main>
 
   <footer>
-  <p>&copy; 2023 My GitHub Pages Theme</p>
+  <p>&copy; 2023 Chi Huang. All rights reserved</p>
   </footer>
-  
-  
-  <script>
-      var header = document.querySelector('.header');
-      var footer = document.querySelector('.footer');
-      var content = document.querySelector('.content');
 
-      function adjustHeaderFooter() {
-        var contentHeight = content.offsetHeight;
-        var windowHeight = window.innerHeight;
-
-        var headerHeight = header.offsetHeight;
-        var footerHeight = footer.offsetHeight;
-
-        var contentVisibleHeight = windowHeight - headerHeight - footerHeight;
-
-        if (contentHeight > contentVisibleHeight) {
-          header.style.position = 'fixed';
-          header.style.top = '0';
-
-          footer.style.position = 'fixed';
-          footer.style.bottom = '0';
-        } else {
-          header.style.position = 'absolute';
-          header.style.top = '0';
-
-          footer.style.position = 'absolute';
-          footer.style.bottom = '0';
-        }
-      }
-
-      window.addEventListener('resize', adjustHeaderFooter);
-      window.addEventListener('scroll', adjustHeaderFooter);
-
-      adjustHeaderFooter();
-    </script>
-  
 </body>
 </html>
 
