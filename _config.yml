@@ -1,5 +1,26 @@
 # _config.yml
 
+# ParticleX Configuration
+# https://github.com/theme-particlex/hexo-theme-particlex
+
+# Research image
+avatar:  https://live.staticflickr.com/1512/24349559072_9397fc6ce2_b.jpg
+
+# Home page background image
+background:
+    - https://images.unsplash.com/photo-1583767417405-2b4497a676c5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwc2VhfGVufDB8fDB8fHww
+
+# Loading image
+loading: /images/loading.gif
+
+# Optional colors for category and tag
+colors:
+    - "#ffa2c4"
+    - "#00bcd4"
+    - "#03a9f4"
+    - "#00a596"
+    - "#ff7d73"
+
 
 # Site
 title:              Chi's personal page
